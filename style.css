@@ -1,0 +1,40 @@
+#body {
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: center;
+}
+#drum-machine {
+  background-color: #1A5276;
+  align-self: center;
+}
+#display {
+  background: #F1C40F;
+  height: 10%;
+  font-size: 24px;
+  color: #000;
+  min-height: 50px;
+}
+#container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 350px;
+  min-height: 350px;
+}
+.drum-pad {
+  width: 10%;
+  height: 10%;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 15px !important;
+}
+.sub-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.myText {
+  font-size: 26px;
+  font-weight: 500;
+}
